@@ -65,7 +65,7 @@
 	},
 	"generators": {
 		"@nx/angular:application": {
-			"e2eTestRunner": "playwright",
+			"e2eTestRunner": "none",
 			"linter": "eslint",
 			"style": "scss",
 			"unitTestRunner": "jest"
@@ -140,5 +140,5 @@
 		}
 	],
 	"defaultProject": "graphql-hasura",
-	"nxCloudAccessToken": "NDJkMGVjMDMtZjM3Yy00ODg5LWJjOGItMzY1MjE1OTMyMzdifHJlYWQtd3JpdGU="
+	"nxCloudAccessToken": "{env:NX_CLOUD_ACCESS_TOKEN_GRAPHQL_HASURA}"
 }
