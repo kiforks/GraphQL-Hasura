@@ -139,5 +139,6 @@
 			}
 		}
 	],
-	"defaultProject": "graphql-hasura"
+	"defaultProject": "graphql-hasura",
+	"nxCloudAccessToken": "{env:NX_CLOUD_ACCESS_TOKEN_GRAPHQL_HASURA}"
 }
